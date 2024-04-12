@@ -1,0 +1,128 @@
+﻿C:\Users\gavin\source\repos\ParallelSorting\ParallelSorting\ParallelSorting.cpp(141,25): : warning : 'get_access' is deprecated: get_access for host_accessor is deprecated, please use get_host_access instead [-Wdeprecated-declarations]
+    141 |     auto accessor = arr.get_access<sycl::access::mode::read_write>();
+        |                         ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\2024.0\include\sycl\buffer.hpp(498,37): note: 'get_access' has been explicitly marked deprecated here
+    498 |           accessor_property_list<>> get_access(const detail::code_location
+        |                                     ^
+C:\Users\gavin\source\repos\ParallelSorting\ParallelSorting\ParallelSorting.cpp(141,25): : warning : 'get_access<sycl::access::mode::read_write>' is deprecated: get_access for host_accessor is deprecated, please use get_host_access instead [-Wdeprecated-declarations]
+    141 |     auto accessor = arr.get_access<sycl::access::mode::read_write>();
+        |                         ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\2024.0\include\sycl\buffer.hpp(492,3): note: 'get_access<sycl::access::mode::read_write>' has been explicitly marked deprecated here
+    492 |   __SYCL2020_DEPRECATED("get_access for host_accessor is deprecated, please "
+        |   ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\2024.0\include\sycl\detail\defines_elementary.hpp(53,40): note: expanded from macro '__SYCL2020_DEPRECATED'
+     53 | #define __SYCL2020_DEPRECATED(message) __SYCL_DEPRECATED(message)
+        |                                        ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\2024.0\include\sycl\detail\defines_elementary.hpp(44,38): note: expanded from macro '__SYCL_DEPRECATED'
+     44 | #define __SYCL_DEPRECATED(message) [[deprecated(message)]]
+        |                                      ^
+C:\Users\gavin\source\repos\ParallelSorting\ParallelSorting\ParallelSorting.cpp(238,29): : warning : 'gpu_selector' is deprecated: Use the callable sycl::gpu_selector_v instead. [-Wdeprecated-declarations]
+    238 |     sycl::queue queue(sycl::gpu_selector{});
+        |                             ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\2024.0\include\sycl\device_selector.hpp(65,21): note: 'gpu_selector' has been explicitly marked deprecated here
+     65 | class __SYCL_EXPORT __SYCL2020_DEPRECATED(
+        |                     ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\2024.0\include\sycl\detail\defines_elementary.hpp(53,40): note: expanded from macro '__SYCL2020_DEPRECATED'
+     53 | #define __SYCL2020_DEPRECATED(message) __SYCL_DEPRECATED(message)
+        |                                        ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\2024.0\include\sycl\detail\defines_elementary.hpp(44,38): note: expanded from macro '__SYCL_DEPRECATED'
+     44 | #define __SYCL_DEPRECATED(message) [[deprecated(message)]]
+        |                                      ^
+C:\Users\gavin\source\repos\ParallelSorting\ParallelSorting\ParallelSorting.cpp(238,17): : warning : 'queue' is deprecated: SYCL 1.2.1 device selectors are deprecated. Please use SYCL 2020 device selectors instead. [-Wdeprecated-declarations]
+    238 |     sycl::queue queue(sycl::gpu_selector{});
+        |                 ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\2024.0\include\sycl\queue.hpp(162,3): note: 'queue' has been explicitly marked deprecated here
+    162 |   __SYCL2020_DEPRECATED("SYCL 1.2.1 device selectors are deprecated. Please "
+        |   ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\2024.0\include\sycl\detail\defines_elementary.hpp(53,40): note: expanded from macro '__SYCL2020_DEPRECATED'
+     53 | #define __SYCL2020_DEPRECATED(message) __SYCL_DEPRECATED(message)
+        |                                        ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\2024.0\include\sycl\detail\defines_elementary.hpp(44,38): note: expanded from macro '__SYCL_DEPRECATED'
+     44 | #define __SYCL_DEPRECATED(message) [[deprecated(message)]]
+        |                                      ^
+C:\Users\gavin\source\repos\ParallelSorting\ParallelSorting\ParallelSorting.cpp(244,29): : warning : 'get_access' is deprecated: get_access for host_accessor is deprecated, please use get_host_access instead [-Wdeprecated-declarations]
+    244 |     auto result = arrBuffer.get_access<sycl::access::mode::read>();
+        |                             ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\2024.0\include\sycl\buffer.hpp(498,37): note: 'get_access' has been explicitly marked deprecated here
+    498 |           accessor_property_list<>> get_access(const detail::code_location
+        |                                     ^
+C:\Users\gavin\source\repos\ParallelSorting\ParallelSorting\ParallelSorting.cpp(244,29): : warning : 'get_access<sycl::access::mode::read>' is deprecated: get_access for host_accessor is deprecated, please use get_host_access instead [-Wdeprecated-declarations]
+    244 |     auto result = arrBuffer.get_access<sycl::access::mode::read>();
+        |                             ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\2024.0\include\sycl\buffer.hpp(492,3): note: 'get_access<sycl::access::mode::read>' has been explicitly marked deprecated here
+    492 |   __SYCL2020_DEPRECATED("get_access for host_accessor is deprecated, please "
+        |   ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\2024.0\include\sycl\detail\defines_elementary.hpp(53,40): note: expanded from macro '__SYCL2020_DEPRECATED'
+     53 | #define __SYCL2020_DEPRECATED(message) __SYCL_DEPRECATED(message)
+        |                                        ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\2024.0\include\sycl\detail\defines_elementary.hpp(44,38): note: expanded from macro '__SYCL_DEPRECATED'
+     44 | #define __SYCL_DEPRECATED(message) [[deprecated(message)]]
+        |                                      ^
+C:\Users\gavin\source\repos\ParallelSorting\ParallelSorting\ParallelSorting.cpp(221,9): : warning : unused variable 'temp' [-Wunused-variable]
+    221 |     int temp[] = { 4, 3, 5, 11, 3, 2, 3 };
+        |         ^~~~
+  7 warnings generated.
+C:\Users\gavin\source\repos\ParallelSorting\ParallelSorting\ParallelSorting.cpp(141,25): : warning : 'get_access' is deprecated: get_access for host_accessor is deprecated, please use get_host_access instead [-Wdeprecated-declarations]
+    141 |     auto accessor = arr.get_access<sycl::access::mode::read_write>();
+        |                         ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\2024.0\include\sycl\buffer.hpp(498,37): note: 'get_access' has been explicitly marked deprecated here
+    498 |           accessor_property_list<>> get_access(const detail::code_location
+        |                                     ^
+C:\Users\gavin\source\repos\ParallelSorting\ParallelSorting\ParallelSorting.cpp(141,25): : warning : 'get_access<sycl::access::mode::read_write>' is deprecated: get_access for host_accessor is deprecated, please use get_host_access instead [-Wdeprecated-declarations]
+    141 |     auto accessor = arr.get_access<sycl::access::mode::read_write>();
+        |                         ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\2024.0\include\sycl\buffer.hpp(492,3): note: 'get_access<sycl::access::mode::read_write>' has been explicitly marked deprecated here
+    492 |   __SYCL2020_DEPRECATED("get_access for host_accessor is deprecated, please "
+        |   ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\2024.0\include\sycl\detail\defines_elementary.hpp(53,40): note: expanded from macro '__SYCL2020_DEPRECATED'
+     53 | #define __SYCL2020_DEPRECATED(message) __SYCL_DEPRECATED(message)
+        |                                        ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\2024.0\include\sycl\detail\defines_elementary.hpp(44,38): note: expanded from macro '__SYCL_DEPRECATED'
+     44 | #define __SYCL_DEPRECATED(message) [[deprecated(message)]]
+        |                                      ^
+C:\Users\gavin\source\repos\ParallelSorting\ParallelSorting\ParallelSorting.cpp(238,29): : warning : 'gpu_selector' is deprecated: Use the callable sycl::gpu_selector_v instead. [-Wdeprecated-declarations]
+    238 |     sycl::queue queue(sycl::gpu_selector{});
+        |                             ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\2024.0\include\sycl\device_selector.hpp(65,21): note: 'gpu_selector' has been explicitly marked deprecated here
+     65 | class __SYCL_EXPORT __SYCL2020_DEPRECATED(
+        |                     ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\2024.0\include\sycl\detail\defines_elementary.hpp(53,40): note: expanded from macro '__SYCL2020_DEPRECATED'
+     53 | #define __SYCL2020_DEPRECATED(message) __SYCL_DEPRECATED(message)
+        |                                        ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\2024.0\include\sycl\detail\defines_elementary.hpp(44,38): note: expanded from macro '__SYCL_DEPRECATED'
+     44 | #define __SYCL_DEPRECATED(message) [[deprecated(message)]]
+        |                                      ^
+C:\Users\gavin\source\repos\ParallelSorting\ParallelSorting\ParallelSorting.cpp(238,17): : warning : 'queue' is deprecated: SYCL 1.2.1 device selectors are deprecated. Please use SYCL 2020 device selectors instead. [-Wdeprecated-declarations]
+    238 |     sycl::queue queue(sycl::gpu_selector{});
+        |                 ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\2024.0\include\sycl\queue.hpp(162,3): note: 'queue' has been explicitly marked deprecated here
+    162 |   __SYCL2020_DEPRECATED("SYCL 1.2.1 device selectors are deprecated. Please "
+        |   ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\2024.0\include\sycl\detail\defines_elementary.hpp(53,40): note: expanded from macro '__SYCL2020_DEPRECATED'
+     53 | #define __SYCL2020_DEPRECATED(message) __SYCL_DEPRECATED(message)
+        |                                        ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\2024.0\include\sycl\detail\defines_elementary.hpp(44,38): note: expanded from macro '__SYCL_DEPRECATED'
+     44 | #define __SYCL_DEPRECATED(message) [[deprecated(message)]]
+        |                                      ^
+C:\Users\gavin\source\repos\ParallelSorting\ParallelSorting\ParallelSorting.cpp(244,29): : warning : 'get_access' is deprecated: get_access for host_accessor is deprecated, please use get_host_access instead [-Wdeprecated-declarations]
+    244 |     auto result = arrBuffer.get_access<sycl::access::mode::read>();
+        |                             ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\2024.0\include\sycl\buffer.hpp(498,37): note: 'get_access' has been explicitly marked deprecated here
+    498 |           accessor_property_list<>> get_access(const detail::code_location
+        |                                     ^
+C:\Users\gavin\source\repos\ParallelSorting\ParallelSorting\ParallelSorting.cpp(244,29): : warning : 'get_access<sycl::access::mode::read>' is deprecated: get_access for host_accessor is deprecated, please use get_host_access instead [-Wdeprecated-declarations]
+    244 |     auto result = arrBuffer.get_access<sycl::access::mode::read>();
+        |                             ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\2024.0\include\sycl\buffer.hpp(492,3): note: 'get_access<sycl::access::mode::read>' has been explicitly marked deprecated here
+    492 |   __SYCL2020_DEPRECATED("get_access for host_accessor is deprecated, please "
+        |   ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\2024.0\include\sycl\detail\defines_elementary.hpp(53,40): note: expanded from macro '__SYCL2020_DEPRECATED'
+     53 | #define __SYCL2020_DEPRECATED(message) __SYCL_DEPRECATED(message)
+        |                                        ^
+  C:\PROGRA~2\Intel\oneAPI\compiler\2024.0\include\sycl\detail\defines_elementary.hpp(44,38): note: expanded from macro '__SYCL_DEPRECATED'
+     44 | #define __SYCL_DEPRECATED(message) [[deprecated(message)]]
+        |                                      ^
+C:\Users\gavin\source\repos\ParallelSorting\ParallelSorting\ParallelSorting.cpp(221,9): : warning : unused variable 'temp' [-Wunused-variable]
+    221 |     int temp[] = { 4, 3, 5, 11, 3, 2, 3 };
+        |         ^~~~
+  7 warnings generated.
